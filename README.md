@@ -1,5 +1,4 @@
-# GLC
-PWA for the Global Leadership Conference
+# PWA for the Global Leadership Conference
 
 This is the code repository for the Global Leadership Conference of the International Christian Churches, a.k.a. Soldout Discipling Movement. The content of this app is 100 percent static.  Any dynamic functionality will come from fetch calls to external APIs on other servers.  The entire app is meant to be hosted on any platform for a static site (e.g. Apache, Nginx, Node/Express public folder, etc.).
 
