@@ -5,3 +5,7 @@ This is the code repository for the Global Leadership Conference of the Internat
 This app is also intended to be a [Progressive Web App](https://web.dev/progressive-web-apps/) (PWA), which uses browser technologies like service workers, fetch request interception, caching and installation (i.e. adding a bookmark with a launch icon to the home screen of a user's mobile device).  This will be facilitated by [Workbox](https://developer.chrome.com/docs/workbox/), launch icons, a manifest.json file and pertinent HTML, CSS and javascript markup.
 
 To request write permissions (to create branches and pull requests), please e-mail Jason McNeill at jason.mcneill@usd21.org
+
+After cloning and installing this app, you can run a local server by invoking the following command from the terminal:
+
+`npm start`
