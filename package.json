@@ -1,0 +1,22 @@
+{
+  "name": "glc",
+  "version": "1.0.0",
+  "description": "PWA for the Global Leadership Conference of the International Christian Churches, a.k.a. Soldout Discipling Movement",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/USD21Developers/glc.git"
+  },
+  "author": "Rob Onekea <rob@usd21.org>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/USD21Developers/glc/issues"
+  },
+  "homepage": "https://github.com/USD21Developers/glc#readme",
+  "devDependencies": {
+    "serve": "^13.0.2"
+  }
+}
