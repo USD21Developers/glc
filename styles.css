@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-image: url("/assets/2022GLC_BG.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#header {
+    color: white;
+    width: 100vw;
+    top: 0px;
+    left: 0px;
+    height: 20vh;
+    max-height: 150px;
+    
+}
+#logoMain {
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 2vw;
+}
+#content {
+    max-width: 980px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#message {
+    height: fit-content;
+    min-height: 200px;
+    background-color: white;
+    color: #7aa0c7;
+    border-radius: 10px;
+}
+#messageText {
+    padding: 2%;
+    padding-top: 0;
+}
+#message > header {
+    color: black;
+    padding: 1%;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: min-content;
+    grid-gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 1rem 0;
+    width: 100%;
+}
+.card {
+
+    font-size: 11pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 10rem;
+    height: 10rem;
+    background: #fff;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+
+    color: #335269;
+    text-transform: uppercase;
+}
+#nextSession {
+    background-color: #68b2f2;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width:480px) {
+    body {
+        background-size:auto;
+    }
+    #logoMain {
+        width: 80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    #message > header {
+        padding: 6%;
+    }
+    #messageText {
+        padding: 6%;
+        padding-top: 0;
+    }
+    .card {
+        width:25vw;
+        height:25vw;
+    }
+}
